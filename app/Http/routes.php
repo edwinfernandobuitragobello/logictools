@@ -10,5 +10,6 @@
 | and give it the controller to call when that URI is requested.
 |
 */
+Route::post('email_contact', 'InicioController@email_contact');
 Route::get('/', 'InicioController@index');
 

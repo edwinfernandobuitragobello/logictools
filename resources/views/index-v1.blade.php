@@ -6,6 +6,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="csrf-token" content="{{ csrf_token() }}" />
   <title>Home - KIDZ SCHOOL</title>
   
   <!-- PLUGINS CSS STYLE -->
@@ -1206,19 +1207,20 @@
           </div>
           <div class="col-sm-6 col-xs-12">
             <div class="homeContactContent">
-              <form action="#" method="POST" role="form">
+              <form action="{{ url('/email_contact') }}" method="POST" role="form">
                 <div class="form-group">
                   <i class="fa fa-user"></i>
-                  <input type="text" class="form-control border-color-1" id="exampleInputEmail1" placeholder="First name">
+                  <input type="text" class="form-control border-color-1" id="InputName" name="InputName" placeholder="First name">
                 </div>
                 <div class="form-group">
                   <i class="fa fa-envelope" aria-hidden="true"></i>
-                  <input type="text" class="form-control border-color-2" id="exampleInputEmail2" placeholder="Email address">
+                  <input type="text" class="form-control border-color-2" id="InputEmail" name="InputEmail" placeholder="Email address">
                 </div>
                 <div class="form-group">
                   <i class="fa fa-comments" aria-hidden="true"></i>
-                  <textarea class="form-control border-color-4" placeholder="Write message"></textarea>
+                  <textarea class="form-control border-color-4" name="Inputdescription" placeholder="Write message"></textarea>
                 </div>
+                <input type="hidden" name="_token" value="{{ csrf_token() }}">
                 <button type="submit" class="btn btn-primary">Send Message</button>
               </form>
             </div>

@@ -407,7 +407,10 @@
     <section class="pageTitleSection">
       <div class="container">
         <div class="pageTitleInfo">
-          <h2>About us</h2>
+          @foreach ($projects as $key => $value)
+            <h2>{{$value->name}}</h2>
+          @endforeach
+          
           <ol class="breadcrumb">
             <li><a href="index-v1.html">Home</a></li>
             <li class="active">About us</li>

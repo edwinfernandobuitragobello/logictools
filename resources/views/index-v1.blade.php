@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="csrf-token" content="{{ csrf_token() }}" />
-  <title>Home - KIDZ SCHOOL</title>
+  <title>Logictools</title>
   
   <!-- PLUGINS CSS STYLE -->
   <link href="plugins/jquery-ui/jquery-ui.css" rel="stylesheet">
@@ -28,7 +28,7 @@
   <link rel="stylesheet" href="css/colors/default.css" id="option_color">
 
   <!-- Icons -->
-  <link rel="shortcut icon" href="img/favicon.png">
+  <link rel="shortcut icon" href="images/favicon.png">
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

@@ -471,7 +471,6 @@
                     </div>
                   </div>
                   <div class="col-sm-6 col-xs-12">
-                    <div class="col-sm-6 col-xs-12">
                       <div class="homeContactContent">
                         <form action="{{ url('/email_contact') }}" method="POST" role="form">
                           <div class="form-group">
@@ -490,7 +489,7 @@
                           <button type="submit" class="btn btn-primary">Send Message</button>
                         </form>
                       </div>
-                    <div>
+              
                   </div>
               </div>
             </div>

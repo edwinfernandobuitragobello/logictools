@@ -2,14 +2,23 @@ var map;
 
 function initMap() {
 
-    var latlng = new google.maps.LatLng(53.385873, -1.471471);
-
-    var image = 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png';
-    var beachMarker = new google.maps.Marker({
-        position: {lat: 53.385873, lng: -1.471471},
-        map: map,
-        icon: image
+    var myLatLng = {lat: 4.6643393, lng: -74.11451139999997};
+    var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 6,
+        center: myLatLng,
+        scrollwheel: false,
+        disableDefaultUI: true,
+        styles: styles
     });
+
+    var marker = new google.maps.Marker({
+        position: myLatLng,
+        map: map,
+        title: 'Logictools.co',
+        icon: 'images/marker.png'
+    });
+
+    marker.setAnimation(google.maps.Animation.BOUNCE);
 
     var styles = [
     {
@@ -42,17 +51,7 @@ function initMap() {
     }
     ];
 
-
-    var myOptions = {
-        zoom: 14,
-        center: latlng,
-        mapTypeId: google.maps.MapTypeId.ROADMAP,
-        disableDefaultUI: true,
-        styles: styles,
-        scrollwheel:  false
-    };
-
-    map = new google.maps.Map(document.getElementById('map'), myOptions);
+    map = new google.maps.Map(document.getElementById('map'), map);
 }
 
 

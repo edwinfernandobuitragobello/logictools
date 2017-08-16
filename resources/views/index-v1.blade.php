@@ -12,12 +12,13 @@
   <!-- PLUGINS CSS STYLE -->
   <link href="plugins/jquery-ui/jquery-ui.css" rel="stylesheet">
   <link href="plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="plugins/font-awesome/css/font-awesome.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="plugins/rs-plugin/css/settings.css" media="screen">
   <link rel="stylesheet" type="text/css" href="plugins/selectbox/select_option1.css">
   <link rel="stylesheet" type="text/css" href="plugins/owl-carousel/owl.carousel.css" media="screen">
   <link rel="stylesheet" type="text/css" href="plugins/isotope/jquery.fancybox.css">
   <link rel="stylesheet" type="text/css" href="plugins/isotope/isotope.css">
+  <link rel="stylesheet" type="text/css" href="css/jquery.growl.css">
   
   <!-- GOOGLE FONT -->
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
@@ -26,6 +27,7 @@
   <!-- CUSTOM CSS -->
   <link href="css/style.css" rel="stylesheet">
   <link rel="stylesheet" href="css/colors/default.css" id="option_color">
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
   <!-- Icons -->
   <link rel="shortcut icon" href="images/favicon.png">
@@ -69,7 +71,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="/index">
+                    <a href="" id="logictools1" class="navbar-brand dropdown-toggle" data-toggle="dropdown">
                       <img src="images/logo.png" alt="Logictools" style="width: 70%">
                     </a>
                   </div>
@@ -83,22 +85,22 @@
                         </li>
                         <li class="dropdown singleDrop color-3">
                           <a href="" id="servicios" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                            <i class="fa fa-list-ul bg-color-3" aria-hidden="true"></i> <span>Servicios</span>
+                            <i class="fa fa-list-ul bg-color-2" aria-hidden="true"></i> <span>Servicios</span>
                           </a>
                         </li>
                         <li class="dropdown megaDropMenu color-2">
                           <a href="" id="equipo" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                            <i class="fa fa-file-text-o bg-color-2" aria-hidden="true"></i> <span>Equipo</span>
+                            <i class="fa fa-users bg-color-3" aria-hidden="true"></i> <span>Equipo</span>
                           </a>
                         </li>
                       <li class="dropdown singleDrop color-4">
-                          <a href="" id="productos" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                            <i class="fa fa-pencil-square-o bg-color-4" aria-hidden="true"></i> <span>Productos</span>
+                          <a href="" id="proyectos" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <i class="fa fa-send bg-color-4" aria-hidden="true"></i> <span>Proyectos</span>
                           </a>
                         </li>
                         <li class="dropdown singleDrop color-5">
-                          <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                            <i class="fa fa-calendar bg-color-5" aria-hidden="true"></i> <span>Contacto</span>
+                          <a href="" id="contacto" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <i class="fa fa-phone bg-color-5" aria-hidden="true"></i> <span>Contacto</span>
                           </a>
                         </li>
                     </ul>
@@ -106,6 +108,64 @@
               </div>
             </nav>
         </header>
+
+        <!--<section class="bannercontainer bannercontainerV2">
+      <div class="fullscreenbanner-container">
+        <div class="fullscreenbanner">
+          <ul>
+
+            <li data-transition="fade" data-slotamount="5" data-masterspeed="300" data-title="kidz_slide_1">
+              <img src="images/home2.jpg"  alt="slidebg" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="repeat">
+              <div class="slider-caption container">
+
+              </div>
+            </li>
+
+            <li data-transition="fade" data-slotamount="5" data-masterspeed="1000" data-title="kidz_slide_2">
+              <img src="images/home1.jpeg"  alt="slidebg" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="repeat">
+              <div class="slider-caption container">
+
+               
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>-->
+
+    <!-- BANNER BOTTOM -->
+    <!--<section class="banner-bottom hidden-xs">
+      <div class="container">
+        <div class="banner-bottom-inner">
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="colContent">
+                <img src="images/servicio1.jpg" alt="image" class="img-responsive">
+                <div class="colContent-info text-center">
+                  <h3 class="bg-color-6">Diseño web</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="colContent">
+                <img src="images/servicio2.jpg" alt="image" class="img-responsive">
+                 <div class="colContent-info text-center">
+                  <h3 class="bg-color-5">Diseño de app</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="colContent">
+                <img src="images/servicio3.jpg" alt="image" class="img-responsive">
+                 <div class="colContent-info text-center">
+                  <h3 class="bg-color-1">Base de datos</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>-->
 
         <!-- HOME BANNERS -->
         <section id="inicio" class="bannercontainer bannercontainerV1">
@@ -228,8 +288,8 @@
                           <i class="fa fa-graduation-cap bg-color-1" aria-hidden="true"></i>
                         </span>
                         <div class="media-body">
-                          <h3 class="media-heading color-1">Experience Teachers</h3>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                          <h3 class="media-heading color-1">Páginas web corporativas</h3>
+                          <p>Páginas web informativas de sus productos y servicios. Además visible y navegable en cualquier dispositivo móvil o tablet.</p>
                         </div>
                     </div>
 
@@ -238,8 +298,8 @@
                           <i class="fa fa-leaf bg-color-2" aria-hidden="true"></i>
                         </span>
                         <div class="media-body">
-                          <h3 class="media-heading color-2">Physical Activity</h3>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                          <h3 class="media-heading color-2">Sitios web personalizados</h3>
+                          <p>Desarrollamos sitios web desde cero totalmente personalizados, justo a su medida, tanto en la Web como en su Panel de Administración.</p>
                         </div>
                     </div>
 
@@ -248,8 +308,8 @@
                           <i class="fa fa-car bg-color-3" aria-hidden="true"></i>
                         </span>
                         <div class="media-body">
-                          <h3 class="media-heading color-3">Physical Activity</h3>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                          <h3 class="media-heading color-3">Desarrollo de apps</h3>
+                          <p>Cada vez mas agricultores o clientes del agro se unen a la era digital y le dedican mas tiempo al celular, materialice su idea de innovación, venda más y tome la delantera frente a sus competidores.</p>
                         </div>
                     </div>
                   </div>
@@ -266,8 +326,8 @@
                           <i class="fa fa-cutlery bg-color-4" aria-hidden="true"></i>
                         </span>
                         <div class="media-body">
-                          <h3 class="media-heading color-4">Delicious Food</h3>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                          <h3 class="media-heading color-4">Software dedicado</h3>
+                          <p>Tome el control de su empresa y vea toda su operación en la palma de la mano. Optimice procesos, aumente su productividad, mejore sus tiempos de respuesta y apoye sus procesos de certificación.</p>
                         </div>
                     </div>
 
@@ -276,8 +336,8 @@
                           <i class="fa fa-heart bg-color-5" aria-hidden="true"></i>
                         </span>
                         <div class="media-body">
-                          <h3 class="media-heading color-5">Love &amp; Care</h3>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                          <h3 class="media-heading color-5">Diseño</h3>
+                          <p>Que los consumidores sientan su presencia, diseño corporativo.</p>
                         </div>
                     </div>
               
@@ -286,8 +346,8 @@
                           <i class="fa fa-shield bg-color-6" aria-hidden="true"></i>
                         </span>
                         <div class="media-body">
-                          <h3 class="media-heading color-6">Meny Sports</h3>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                          <h3 class="media-heading color-6">Mercadeo digital</h3>
+                          <p>Desarrollamos formulas eficientes para el posicionamiento de tus productos o servicios.</p>
                         </div>
                     </div>
                   </div>
@@ -376,7 +436,7 @@
                           <div class="slide">
                             <div class="teamContent">
                                 <div class="teamImage">
-                                  <img src="img/testimonial/4.jpg" alt="Danny Cortés" title="Danny Cortés" width="100%" class="img-circle">
+                                  <img src="img/testimonial/6.jpg" alt="Danny Cortés" title="Danny Cortés" width="100%" class="img-circle">
                                   <div class="maskingContent">
                                     <ul class="list-inline">
                                         <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -398,64 +458,77 @@
             </div>
         </section>
 
-        <!-- PORTFOLIO -->
-        <section id="productos1" class="whiteSection full-width clearfix homeGallerySection">
-            <div class="container">
-              <div class="sectionTitle text-center">
+        <!-- MAIN SECTION -->
+        <section id="proyectos1" class="mainContent full-width clearfix">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="sectionTitle text-center">
                   <h2>
                     <span class="shape shape-left bg-color-4"></span>
-                    <span>PRODUCTOS</span>
+                    <span>Proyectos</span>
                     <span class="shape shape-right bg-color-4"></span>
                   </h2>
-              </div>
-            
-              <div class="row">
-                  <!--<div class="col-xs-12">
-                    <div class="filter-container isotopeFilters">
-                        <ul class="list-inline filter">
-                          <li class="active"><a href="#" data-filter="*">Todos los productos</a></li>
-                          <li><a href="#" data-filter=".agricultura">Agricultura</a></li>
-                          <li><a href="#" data-filter=".salud">Salud</a></li>
-                          <li><a href="#" data-filter=".tecnologia">Tecnología</a></li>
-                        </ul>
-                    </div>
-                  </div>-->
-              </div>
-
-              <div class="row isotopeContainer" id="container">
-                  <div class="col-md-3 col-sm-6 col-xs-12 isotopeSelector children">
-                    <article class="">
-                        <figure>
-                          <img src="img/home/home_gallery/gallery_sm_7.jpg" alt="image" class="img-rounded">
-                          <div class="overlay-background">
-                              <div class="inner"></div>
-                          </div>
-                          <div class="overlay">
-                              <a class="fancybox-pop" rel="portfolio-1" href="img/home/home_gallery/gallery_lg_7.jpg">
-                                <i class="fa fa-search-plus" aria-hidden="true"></i>
-                              </a>
-                          </div>
-                        </figure>
-                    </article>
-                  </div>
-
-                  <div class="col-md-3 col-sm-6 col-xs-12 isotopeSelector children">
-                    <article class="">
-                        <figure>
-                          <img src="img/home/home_gallery/gallery_sm_7.jpg" alt="image" class="img-rounded">
-                          <div class="overlay-background">
-                              <div class="inner"></div>
-                          </div>
-                          <div class="overlay">
-                              <a class="fancybox-pop" rel="portfolio-1" href="img/home/home_gallery/gallery_lg_7.jpg">
-                                <i class="fa fa-search-plus" aria-hidden="true"></i>
-                              </a>
-                          </div>
-                        </figure>
-                    </article>
-                  </div>
+                </div>
               </div>
             </div>
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="tabCommon">
+                  <ul class="nav nav-tabs">
+                    <li class="active"><a data-toggle="tab" href="#agromapp">AGROMAPP</a></li>
+                    <li><a data-toggle="tab" href="#bioagrotech">BIOAGROTECH</a></li>
+                  </ul>
+                  <div class="tab-content">
+                    <div id="agromapp" class="tab-pane fade in active">
+                      <div class="media">
+                        <a class="media-left" href="#" style="padding: 30px 50px 30px 30px">
+                          <img class="media-object img-rounded" src="images/proyecto1.jpg" alt="Agromapp">
+                        </a>
+                        <div class="media-body">
+                          <h3 class="media-heading" style="margin-top: -10px"><a href="http://www.agromapp.com" target="_blank">Agromapp</a></h3>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in repre henderit in voluptate.</p>
+                          <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accu santium doloremque laudantium.</p>
+                          <a href="https://play.google.com/store/apps/details?id=air.com.bionet.agromapp" target="_blank">
+                            <img src="images/googlePlay.png" width="15%" style="border-radius: 5px; width: 154px; height: 56px;">
+                          </a>
+                          &nbsp;&nbsp;&nbsp;&nbsp;
+                          <a href="https://play.google.com/store/apps/details?id=air.com.bionet.agromapp" target="_blank">
+                            <img src="images/appStore.png" width="15%" style="border-radius: 5px; width: 154px; height: 56px;">
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="bioagrotech" class="tab-pane fade">
+                      <div class="media">
+                        <a class="media-left" href="#" style="padding: 30px 50px 30px 30px">
+                          <img class="media-object img-rounded" src="images/proyecto2.jpg" alt="Bioagrotech">
+                        </a>
+                        <div class="media-body">
+                          <h3 class="media-heading" style="margin-top: -10px"><a href="http://bioagrotech.co/" target="_blank">Bioagrotech</a></h3>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in repre henderit in voluptate.</p>
+                          <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accu santium doloremque laudantium.</p>
+                          <a href="#" class="btn btn-primary">Ir a la web</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="promotionWrapper" style="background-image: url(images/cotizacion.jpg);">
+          <div class="container">
+            <div class="promotionInfo">
+              <h2>¿Necesitas una cotización?</h2>
+              <p>No dudes en contactarnos:</p>
+              <a href="" id="btn_contacto" class="dropdown-toggle btn btn-primary" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                <i class="fa fa-send" aria-hidden="true"></i>Solicitar
+              </a>
+            </div>
+          </div>
         </section>
 
         <!-- CONTACTO -->
@@ -467,7 +540,7 @@
                         <h2>Dirección</h2>
                         <p>Regístrate y recibe más información, también nos puedes enviar tus sugerencias o inquietudes las cuales resolveremos de inmediato.</p>
                         <address>
-                          <p><i class="fa fa-map-marker bg-color-2" aria-hidden="true"></i>Kra 72 Bis # 24D - 50 Bogotá</p>
+                          <p><i class="fa fa-map-marker bg-color-2" aria-hidden="true"></i>Cra 72 Bis # 24D - 50 Bogotá</p>
                           <p><i class="fa fa-envelope bg-color-3" aria-hidden="true"></i><a href="mailto:contacto@logictools.co">contacto@logictools.co</a></p>
                           <p><i class="fa fa-phone bg-color-4" aria-hidden="true"></i>(57-1) 2630353 Bogotá</p>
                           <p><i class="fa fa-mobile bg-color-1" aria-hidden="true"></i>Cel. 312 437 8174</p><br>
@@ -479,21 +552,30 @@
                         <form action="{{ url('/email_contact') }}" method="POST" role="form">
                           <div class="form-group">
                             <i class="fa fa-user"></i>
-                            <input type="text" class="form-control border-color-1" id="InputName" name="InputName" placeholder="First name">
+                            <input type="text" class="form-control border-color-1" id="InputName" name="InputName" placeholder="Nombre">
                           </div>
                           <div class="form-group">
                             <i class="fa fa-envelope" aria-hidden="true"></i>
-                            <input type="text" class="form-control border-color-2" id="InputEmail" name="InputEmail" placeholder="Email address">
+                            <input type="text" class="form-control border-color-2" id="InputEmail" name="InputEmail" placeholder="Correo">
                           </div>
                           <div class="form-group">
                             <i class="fa fa-comments" aria-hidden="true"></i>
-                            <textarea class="form-control border-color-4" name="Inputdescription" placeholder="Write message"></textarea>
+                            <textarea class="form-control border-color-4" name="Inputdescription" placeholder="Mensaje"></textarea>
                           </div>
                           <input type="hidden" name="_token" value="{{ csrf_token() }}">
-                          <button type="submit" class="btn btn-primary">Send Message</button>
+                          <div class="row">
+                            <div class="col-md-12">
+                              <center><div class="g-recaptcha" data-sitekey="6LdN5BoUAAAAAGbGcZGmTSlbR2HShhKKy2Zt_Uur"></div></center><br>
+                            </div>
+                            <div class="col-md-12">
+                              <center>
+                                <button id="enviar" type="submit" class="btn btn-primary" style="">Enviar mensaje</button>
+                                <button id="enviando" type="submit" class="btn btn-success">&nbsp;&nbsp;Enviando...&nbsp;&nbsp;</button>
+                              </center>
+                            </div>
+                          </div>
                         </form>
                       </div>
-              
                   </div>
               </div>
             </div>
@@ -523,12 +605,12 @@
               </div>
             </div>
 
-            <div class="footerInfoArea full-width clearfix" style="background-image: url(img/footer/footer-bg-1.png);">
+            <div class="footerInfoArea full-width clearfix" style="background-image: url(images/footer.png);">
               <div class="container">
                   <div class="row">
                     <div class="col-sm-12 col-xs-12">
                         <div class="footerTitle" align="center">
-                          <a href="" id="logo2" class="dropdown-toggle" data-toggle="dropdown"><img src="images/logo.png" width="100%"></a>
+                          <a href="" id="logictools2" class="dropdown-toggle" data-toggle="dropdown"><img src="images/logo.png" width="100%"></a>
                         </div>
                     </div>
                   </div>
@@ -557,7 +639,7 @@
                     </div>
                     <div class="col-sm-7 col-sm-pull-5 col-xs-12">
                         <div class="copyRightText">
-                          <p>© 2017 Copyright <a href=""><u>Logictools.co</u></a></p>
+                          <p>© 2017 Copyright <a href="" id="logictools3" class="dropdown-toggle" data-toggle="dropdown"><u>Logictools.co</u></a></p>
                         </div>
                     </div>
                   </div>
@@ -586,6 +668,7 @@
       <script src="plugins/velocity/velocity.min.js"></script>
       <script src="plugins/smoothscroll/SmoothScroll.js"></script>
       <script src="js/custom.js"></script>
+      <script src="js/jquery.growl.js"></script>
       <script src="plugins/google-custom-map/google-map.js"></script>
       <script src="http://maps.google.com/maps/api/js?key=AIzaSyAjUY8rnvqvQmnUvnztrDgnIpQTLxidt18&callback=initMap"></script>
 
@@ -593,10 +676,13 @@
 </html>
 
 <script type="text/javascript">
+  $(document).ready(function(){
+    $("#enviando").hide();
+  });
+
   //FUNCIONES
   function inicio(){
-      var posicion= $("#inicio1").offset().top-90+"px";
-      $("html, body").animate({scrollTop:posicion+"px"});
+      $("html, body").animate({scrollTop:0+"px"});
   }
   function servicios(){
       var posicion= $("#servicios1").offset().top-90+"px";
@@ -606,12 +692,12 @@
       var posicion= $("#equipo1").offset().top-60+"px";
       $("html, body").animate({scrollTop:posicion+"px"});
   }
-  function productos(){
-      var posicion= $("#productos1").offset().top+50+"px";
+  function proyectos(){
+      var posicion= $("#proyectos1").offset().top-90+"px";
       $("html, body").animate({scrollTop:posicion+"px"});
   }
   function contacto(){
-      var posicion= $("#contacto1").offset().top+50+"px";
+      var posicion= $("#contacto1").offset().top-90+"px";
       $("html, body").animate({scrollTop:posicion+"px"});
   }
 
@@ -619,6 +705,10 @@
   $("#inicio").click(function(){ inicio(); });
   $("#servicios").click(function(){ servicios(); });
   $("#equipo").click(function(){ equipo(); });
-  $("#productos").click(function(){ productos(); });
+  $("#proyectos").click(function(){ proyectos(); });
   $("#contacto").click(function(){ contacto(); });
+  $("#logictools1").click(function(){ inicio(); });
+  $("#logictools2").click(function(){ inicio(); });
+  $("#logictools3").click(function(){ inicio(); });
+
 </script>

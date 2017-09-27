@@ -26,6 +26,7 @@
 
   <!-- CUSTOM CSS -->
   <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/revslider.css" id="option_color">
   <link rel="stylesheet" href="css/colors/default.css" id="option_color">
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
@@ -466,7 +467,7 @@
                 <div class="sectionTitle text-center">
                   <h2>
                     <span class="shape shape-left bg-color-4"></span>
-                    <span>Proyectos</span>
+                    <span>AGROMAPP</span>
                     <span class="shape shape-right bg-color-4"></span>
                   </h2>
                 </div>
@@ -475,20 +476,43 @@
             <div class="row">
               <div class="col-xs-12">
                 <div class="tabCommon">
-                  <ul class="nav nav-tabs">
-                    <li class="active"><a data-toggle="tab" href="#agromapp">AGROMAPP</a></li>
-                    <li><a data-toggle="tab" href="#bioagrotech">BIOAGROTECH</a></li>
-                  </ul>
                   <div class="tab-content">
                     <div id="agromapp" class="tab-pane fade in active">
-                      <div class="media">
-                        <a class="media-left" href="#" style="padding: 30px 50px 30px 30px">
-                          <img class="media-object img-rounded" src="images/proyecto1.jpg" alt="Agromapp">
-                        </a>
+                      <div class="media"><br>
+                        <div id="revslider-container">
+                          <div id="revslider">
+                            <ul>
+                              <div id="headCarousel" class="col-md-4">
+                                  <div class="widget-content widget-content-full">
+                                      <div id="info-carousel1" class="carousel slide remove-margin"><br>
+                                          <div class="carousel-inner" >
+                                              <div class="item active"><img src="http://www.agromapp.com/assets/images/background/phone-1.png" alt=""></div>
+                                              <div class="item"><img src="http://www.agromapp.com/assets/images/background/phone-2.png" alt=""></div>
+                                              <div class="item"><img src="http://www.agromapp.com/assets/images/background/phone-3.png" alt=""></div>
+                                              <div class="item"><img src="http://www.agromapp.com/assets/images/background/phone-4.png" alt=""></div>
+                                              <div class="item"><img src="http://www.agromapp.com/assets/images/background/phone-5.png" alt=""></div>
+                                          </div>
+                                          <a class="left carousel-control" href="#info-carousel1" data-slide="prev" style="visibility: hidden;">
+                                              <span><i class="fa fa-chevron-left"></i></span>
+                                          </a>
+                                          <a id="right1" class="right carousel-control" href="#info-carousel1" data-slide="next" style="visibility: hidden;">
+                                              <span><i class="fa fa-chevron-right"></i></span>
+                                          </a>
+                                      </div>
+                                  </div>
+                              </div>
+                            </ul>
+                          </div>
+                        </div>
                         <div class="media-body">
-                          <h3 class="media-heading" style="margin-top: -10px"><a href="http://www.agromapp.com" target="_blank">Agromapp</a></h3>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in repre henderit in voluptate.</p>
-                          <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accu santium doloremque laudantium.</p>
+                          <h3 class="media-heading" style="margin-top: -30px"><a href="http://www.agromapp.com" target="_blank">Agromapp</a></h3>
+                          <p>Agromapp es un ejemplo de las aplicaciones móviles que  desarrollamos pensando en ayudar, está enfocada al sector agrícola y es totalmente gratis, contiene mas de 180 cultivos con información para identificar y conocer plagas, enfermedades, deficiencias, propagación y posibles soluciones. Esta app es una guía para el nuevo agricultor, facilitándole  la toma de decisiones. <br /><br />
+                          <b>Pensamos en todo:</b> ​<br />Todos pueden registrar y promocionar sus productos o servicios gratis​.<br /><br />
+                          <b>Funciona sin internet:</b><br />Sabemos que la cobertura en el campo no es la mejor y es allí  donde más se necesita la información.​<br /><br />
+                          <b>Todos pueden ayudar:</b><br /> Descargando la app y enviando sugerencias y fotos desde la misma o a <a href="mailto:contacto@agromapp.com​">contacto@agromapp.com​</a><br /><br />
+                          <b>Publicidad gratis:</b><br /> Pon tu marca o datos en las fotos que envíes, así millones de personas te conocerán y te lo agradecerán.<br />
+                          Cuantas mas envíes mas visibilidad ganarás. ​<br /><br />          
+                          <b>Retroalimentación:</b> <br />Contamos con blog, Foros y Redes sociales.​</p>
                           <a href="https://play.google.com/store/apps/details?id=air.com.bionet.agromapp" target="_blank">
                             <img src="images/googlePlay.png" width="15%" style="border-radius: 5px; width: 154px; height: 56px;">
                           </a>
@@ -710,5 +734,21 @@
   $("#logictools1").click(function(){ inicio(); });
   $("#logictools2").click(function(){ inicio(); });
   $("#logictools3").click(function(){ inicio(); });
+
+  //Slider Revolution
+  (function () {
+    "use strict";
+    jQuery('#revslider').revolution({
+      delay:8000,
+      startwidth:1170,
+      startheight:500,
+      fullWidth:"on",
+      fullScreen:"on",
+      hideTimerBar: "off",
+      spinner:"spinner4",
+      soloArrowLeftHOffset:20,
+      soloArrowRightHOffset:20
+    });
+  }());
 
 </script>

@@ -174,7 +174,7 @@
               <div class="fullscreenbanner">
                   <ul>
                     <li data-transition="fade" data-slotamount="5" data-masterspeed="700" data-title="Slide 1">
-                        <img src="images/home2.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                        <img src="images/home2.jpeg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
                         <div class="slider-caption container">
                           <div class="tp-caption rs-caption-1 sft start"
                               data-hoffset="0"
@@ -201,7 +201,7 @@
                     </li>
 
                     <li data-transition="fade" data-slotamount="5" data-masterspeed="700"  data-title="Slide 3">
-                        <img src="images/home1.jpeg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                        <img src="images/home1.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
                         <div class="slider-caption container">
                           <div class="tp-caption rs-caption-1 sft start text-right"
                               data-hoffset="0"
@@ -281,36 +281,39 @@
                     <span class="shape shape-right bg-color-4"></span>
                   </h2>
               </div>
+              <br /><br />
+              <br /><br />
+              <br /><br />
             
               <div class="row">
                   <div class="col-sm-4 col-xs-12">
+                    <div class="media servicesStyle">
+                        <span class="media-left bg-color-5">
+                          <i class="fa fa-heart bg-color-5" aria-hidden="true"></i>
+                        </span>
+                        <div class="media-body">
+                          <h3 class="media-heading color-5">Diseño</h3>
+                          <p align="justify">Que los consumidores sientan su presencia mediante un excelente diseño corporativo.</p>
+                        </div>
+                    </div>
+
                     <div class="media servicesStyle">
                         <span class="media-left bg-color-1">
                           <i class="fa fa-graduation-cap bg-color-1" aria-hidden="true"></i>
                         </span>
                         <div class="media-body">
                           <h3 class="media-heading color-1">Páginas web corporativas</h3>
-                          <p>Páginas web informativas de sus productos y servicios. Además visible y navegable en cualquier dispositivo móvil o tablet.</p>
-                        </div>
-                    </div>
-
-                    <div class="media servicesStyle">
-                        <span class="media-left bg-color-2">
-                          <i class="fa fa-leaf bg-color-2" aria-hidden="true"></i>
-                        </span>
-                        <div class="media-body">
-                          <h3 class="media-heading color-2">Sitios web personalizados</h3>
-                          <p>Desarrollamos sitios web desde cero totalmente personalizados, justo a su medida, tanto en la Web como en su Panel de Administración.</p>
+                          <p align="justify">Páginas web informativas de sus productos y servicios. Además visible y navegable en cualquier dispositivo móvil o tablet.</p>
                         </div>
                     </div>
 
                     <div class="media servicesStyle">
                         <span class="media-left bg-color-3">
-                          <i class="fa fa-car bg-color-3" aria-hidden="true"></i>
+                          <i class="fa fa-mobile bg-color-3" style="font-size: 45px"></i>
                         </span>
                         <div class="media-body">
                           <h3 class="media-heading color-3">Desarrollo de apps</h3>
-                          <p>Cada vez mas agricultores o clientes del agro se unen a la era digital y le dedican mas tiempo al celular, materialice su idea de innovación, venda más y tome la delantera frente a sus competidores.</p>
+                          <p align="justify">Cada vez mas agricultores o clientes del agro se unen a la era digital y le dedican más tiempo al celular, materialice su idea de innovación, venda más y tome la delantera frente a sus competidores.</p>
                         </div>
                     </div>
                   </div>
@@ -323,32 +326,32 @@
 
                   <div class="col-sm-4 col-xs-12">
                     <div class="media servicesStyle">
-                        <span class="media-left bg-color-4">
-                          <i class="fa fa-cutlery bg-color-4" aria-hidden="true"></i>
+                        <span class="media-left bg-color-6">
+                          <i class="fa fa-line-chart bg-color-6" style="font-size: 25px;"></i>
                         </span>
                         <div class="media-body">
-                          <h3 class="media-heading color-4">Software dedicado</h3>
-                          <p>Tome el control de su empresa y vea toda su operación en la palma de la mano. Optimice procesos, aumente su productividad, mejore sus tiempos de respuesta y apoye sus procesos de certificación.</p>
+                          <h3 class="media-heading color-6">Mercadeo digital</h3>
+                          <p align="justify">Desarrollamos fórmulas eficientes para el posicionamiento de sus productos o servicios.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="media servicesStyle">
+                        <span class="media-left bg-color-2">
+                          <i class="fa fa-leaf bg-color-2" aria-hidden="true"></i>
+                        </span>
+                        <div class="media-body">
+                          <h3 class="media-heading color-2">Sitios web personalizados</h3>
+                          <p align="justify">Desarrollamos sitios web desde cero totalmente personalizados, justo a su medida, tanto en la Web como en su Panel de Administración.</p>
                         </div>
                     </div>
 
                     <div class="media servicesStyle">
-                        <span class="media-left bg-color-5">
-                          <i class="fa fa-heart bg-color-5" aria-hidden="true"></i>
+                        <span class="media-left bg-color-4">
+                          <i class="fa fa-server bg-color-4" style="font-size: 30px;"></i>
                         </span>
                         <div class="media-body">
-                          <h3 class="media-heading color-5">Diseño</h3>
-                          <p>Que los consumidores sientan su presencia, diseño corporativo.</p>
-                        </div>
-                    </div>
-              
-                    <div class="media servicesStyle">
-                        <span class="media-left bg-color-6">
-                          <i class="fa fa-shield bg-color-6" aria-hidden="true"></i>
-                        </span>
-                        <div class="media-body">
-                          <h3 class="media-heading color-6">Mercadeo digital</h3>
-                          <p>Desarrollamos formulas eficientes para el posicionamiento de tus productos o servicios.</p>
+                          <h3 class="media-heading color-4">Software dedicado</h3>
+                          <p align="justify">Tome el control de su empresa y vea toda su operación en la palma de su mano. Optimice procesos, aumente su productividad, mejore sus tiempos y apoye sus procesos de certificación.</p>
                         </div>
                     </div>
                   </div>
@@ -479,31 +482,28 @@
                   <div class="tab-content">
                     <div id="agromapp" class="tab-pane fade in active">
                       <div class="media"><br>
-                        <div id="revslider-container">
-                          <div id="revslider">
-                            <ul>
-                              <div id="headCarousel" class="col-md-4">
-                                  <div class="widget-content widget-content-full">
-                                      <div id="info-carousel1" class="carousel slide remove-margin"><br>
-                                          <div class="carousel-inner" >
-                                              <div class="item active"><img src="http://www.agromapp.com/assets/images/background/phone-1.png" alt=""></div>
-                                              <div class="item"><img src="http://www.agromapp.com/assets/images/background/phone-2.png" alt=""></div>
-                                              <div class="item"><img src="http://www.agromapp.com/assets/images/background/phone-3.png" alt=""></div>
-                                              <div class="item"><img src="http://www.agromapp.com/assets/images/background/phone-4.png" alt=""></div>
-                                              <div class="item"><img src="http://www.agromapp.com/assets/images/background/phone-5.png" alt=""></div>
-                                          </div>
-                                          <a class="left carousel-control" href="#info-carousel1" data-slide="prev" style="visibility: hidden;">
-                                              <span><i class="fa fa-chevron-left"></i></span>
-                                          </a>
-                                          <a id="right1" class="right carousel-control" href="#info-carousel1" data-slide="next" style="visibility: hidden;">
-                                              <span><i class="fa fa-chevron-right"></i></span>
-                                          </a>
-                                      </div>
-                                  </div>
+                        <!--Carousel-->
+                        <div id="headCarousel" class="col-md-4">
+                          <div class="widget-content widget-content-full">
+                            <div id="info-carousel1" class="carousel slide remove-margin"><br>
+                              <div class="carousel-inner" >
+                                <div class="item active"><img src="http://www.agromapp.com/assets/images/background/phone-1.png" alt="Agromapp"></div>
+                                <div class="item"><img src="http://www.agromapp.com/assets/images/background/phone-2.png" alt="Selecciona tu cultivo."></div>
+                                <div class="item"><img src="http://www.agromapp.com/assets/images/background/phone-3.png" alt=""></div>
+                                <div class="item"><img src="http://www.agromapp.com/assets/images/background/phone-4.png" alt="Plagas y enfermedades."></div>
+                                <div class="item"><img src="http://www.agromapp.com/assets/images/background/phone-5.png" alt=""></div>
                               </div>
-                            </ul>
+                              <a class="left carousel-control" href="#info-carousel1" data-slide="prev" style="visibility: hidden;">
+                                <span><i class="fa fa-chevron-left"></i></span>
+                              </a>
+                              <a id="right1" class="right carousel-control" href="#info-carousel1" data-slide="next" style="visibility: hidden;">
+                                <span><i class="fa fa-chevron-right"></i></span>
+                              </a>
+                            </div>
                           </div>
                         </div>
+                        
+                        <!--Agromapp-->
                         <div class="media-body">
                           <h3 class="media-heading" style="margin-top: -30px"><a href="http://www.agromapp.com" target="_blank">Agromapp</a></h3>
                           <p>Agromapp es un ejemplo de las aplicaciones móviles que  desarrollamos pensando en ayudar, está enfocada al sector agrícola y es totalmente gratis, contiene mas de 180 cultivos con información para identificar y conocer plagas, enfermedades, deficiencias, propagación y posibles soluciones. Esta app es una guía para el nuevo agricultor, facilitándole  la toma de decisiones. <br /><br />
@@ -520,19 +520,6 @@
                           <a href="https://play.google.com/store/apps/details?id=air.com.bionet.agromapp" target="_blank">
                             <img src="images/appStore.png" width="15%" style="border-radius: 5px; width: 154px; height: 56px;">
                           </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div id="bioagrotech" class="tab-pane fade">
-                      <div class="media">
-                        <a class="media-left" href="#" style="padding: 30px 50px 30px 30px">
-                          <img class="media-object img-rounded" src="images/proyecto2.jpg" alt="Bioagrotech">
-                        </a>
-                        <div class="media-body">
-                          <h3 class="media-heading" style="margin-top: -10px"><a href="http://bioagrotech.co/" target="_blank">Bioagrotech</a></h3>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in repre henderit in voluptate.</p>
-                          <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accu santium doloremque laudantium.</p>
-                          <a href="#" class="btn btn-primary">Ir a la web</a>
                         </div>
                       </div>
                     </div>
@@ -702,9 +689,15 @@
 <script type="text/javascript">
   $(document).ready(function(){
     $("#enviando").hide();
+
+    //Carousel
+    function click(){
+      $("#right1").click(); $("#right2").click();
+    }
+    setInterval(click, 4000);
   });
 
-  //FUNCIONES
+  //Functions
   function inicio(){
       $("html, body").animate({scrollTop:0+"px"});
   }
@@ -725,7 +718,7 @@
       $("html, body").animate({scrollTop:posicion+"px"});
   }
 
-  //CLICK BUTTONS
+  //Click buttons
   $("#inicio").click(function(){ inicio(); });
   $("#servicios").click(function(){ servicios(); });
   $("#equipo").click(function(){ equipo(); });
@@ -734,21 +727,5 @@
   $("#logictools1").click(function(){ inicio(); });
   $("#logictools2").click(function(){ inicio(); });
   $("#logictools3").click(function(){ inicio(); });
-
-  //Slider Revolution
-  (function () {
-    "use strict";
-    jQuery('#revslider').revolution({
-      delay:8000,
-      startwidth:1170,
-      startheight:500,
-      fullWidth:"on",
-      fullScreen:"on",
-      hideTimerBar: "off",
-      spinner:"spinner4",
-      soloArrowLeftHOffset:20,
-      soloArrowRightHOffset:20
-    });
-  }());
 
 </script>

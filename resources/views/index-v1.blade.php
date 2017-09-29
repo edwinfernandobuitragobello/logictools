@@ -42,44 +42,52 @@
 
 </head>
 
-  <body class="body-wrapper">
-      <div class="main-wrapper">
-        <header id="pageTop" class="header-wrapper">
-          <div class="container-fluid color-bar top-fixed clearfix">
-              <div class="row">
-                  <div class="col-sm-1 col-xs-2 bg-color-1">fix bar</div>
-                  <div class="col-sm-1 col-xs-2 bg-color-2">fix bar</div>
-                  <div class="col-sm-1 col-xs-2 bg-color-3">fix bar</div>
-                  <div class="col-sm-1 col-xs-2 bg-color-4">fix bar</div>
-                  <div class="col-sm-1 col-xs-2 bg-color-5">fix bar</div>
-                  <div class="col-sm-1 col-xs-2 bg-color-6">fix bar</div>
-                  <div class="col-sm-1 bg-color-1 hidden-xs">fix bar</div>
-                  <div class="col-sm-1 bg-color-2 hidden-xs">fix bar</div>
-                  <div class="col-sm-1 bg-color-3 hidden-xs">fix bar</div>
-                  <div class="col-sm-1 bg-color-4 hidden-xs">fix bar</div>
-                  <div class="col-sm-1 bg-color-5 hidden-xs">fix bar</div>
-                  <div class="col-sm-1 bg-color-6 hidden-xs">fix bar</div>
-              </div>
-            </div>
+  <body class="body-wrapper version3">
 
-            <!-- NAVBAR -->
-            <nav id="menuBar" class="navbar navbar-default lightHeader" role="navigation">
-              <div class="container">
-                  <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a href="" id="logictools1" class="navbar-brand dropdown-toggle" data-toggle="dropdown">
-                      <img src="images/logo.png" alt="Logictools" style="width: 70%">
-                    </a>
-                  </div>
+  <div class="main-wrapper">
+    <!-- HEADER -->
+    <header id="pageTop" class="header-wrapper headerV3">
+      <!-- COLOR BAR -->
+      <div class="container-fluid color-bar top-fixed clearfix">
+        <div class="row">
+          <div class="col-sm-1 col-xs-2 bg-color-1">fix bar</div>
+          <div class="col-sm-1 col-xs-2 bg-color-2">fix bar</div>
+          <div class="col-sm-1 col-xs-2 bg-color-3">fix bar</div>
+          <div class="col-sm-1 col-xs-2 bg-color-4">fix bar</div>
+          <div class="col-sm-1 col-xs-2 bg-color-5">fix bar</div>
+          <div class="col-sm-1 col-xs-2 bg-color-6">fix bar</div>
+          <div class="col-sm-1 bg-color-1 hidden-xs">fix bar</div>
+          <div class="col-sm-1 bg-color-2 hidden-xs">fix bar</div>
+          <div class="col-sm-1 bg-color-3 hidden-xs">fix bar</div>
+          <div class="col-sm-1 bg-color-4 hidden-xs">fix bar</div>
+          <div class="col-sm-1 bg-color-5 hidden-xs">fix bar</div>
+          <div class="col-sm-1 bg-color-6 hidden-xs">fix bar</div>
+        </div>
+      </div>
 
-                  <div class="collapse navbar-collapse navbar-ex1-collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="active dropdown singleDrop color-1">
+      <!-- TOP INFO BAR -->
+      
+
+      <!-- NAVBAR -->
+      <nav id="menuBar" class="navbar navbar-default lightHeader" role="navigation">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="" id="logictools1" class="navbar-brand dropdown-toggle" data-toggle="dropdown">
+              <img src="images/logo.png" alt="Logictools" style="width: 70%">
+            </a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active dropdown singleDrop color-1">
                           <a href="" id="inicio" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                             <i class="fa fa-home bg-color-1" aria-hidden="true"></i> <span>Inicio</span>
                           </a>
@@ -104,172 +112,104 @@
                             <i class="fa fa-phone bg-color-5" aria-hidden="true"></i> <span>Contacto</span>
                           </a>
                         </li>
-                    </ul>
-                  </div>
-              </div>
-            </nav>
-        </header>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-        <!--<section class="bannercontainer bannercontainerV2">
+    <!-- BANNER -->
+    <section class="bannercontainer bannercontainerV3">
       <div class="fullscreenbanner-container">
         <div class="fullscreenbanner">
           <ul>
-
-            <li data-transition="fade" data-slotamount="5" data-masterspeed="300" data-title="kidz_slide_1">
-              <img src="images/home2.jpg"  alt="slidebg" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="repeat">
+            <li data-transition="fade" data-slotamount="5" data-masterspeed="700"  data-title="Slide 3">
+              <img src="images/home1.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
               <div class="slider-caption container">
+                <div class="tp-caption rs-caption-1 sft start text-right"
+                  data-hoffset="0"
+                  data-y="270"
+                  data-x="right"
+                  data-speed="800"
+                  data-start="1000"
+                  data-easing="Back.easeInOut"
+                  data-endspeed="300">
+                  Lorem Ipsum Dolar
+                </div>
 
+                <div class="tp-caption rs-caption-2 sft text-right"
+                  data-hoffset="0"
+                  data-x="right"
+                  data-y="345"
+                  data-x="right"
+                  data-speed="1000"
+                  data-start="1500"
+                  data-easing="Power4.easeOut"
+                  data-endspeed="300"
+                  data-endeasing="Power1.easeIn"
+                  data-captionhidden="off">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor
+                </div>
+
+                <div class="tp-caption rs-caption-3 sft text-right"
+                  data-hoffset="0"
+                  data-x="right"
+                  data-y="455"
+                  data-speed="1200"
+                  data-start="2000"
+                  data-easing="Power4.easeOut"
+                  data-endspeed="300"
+                  data-endeasing="Power1.easeIn"
+                  data-captionhidden="off">
+                  <a href="#" class="btn btn-primary">view more</a>
+                </div>
               </div>
             </li>
-
-            <li data-transition="fade" data-slotamount="5" data-masterspeed="1000" data-title="kidz_slide_2">
-              <img src="images/home1.jpeg"  alt="slidebg" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="repeat">
+            <li data-transition="fade" data-slotamount="5" data-masterspeed="700"  data-title="Slide 4">
+              <img src="images/home2.jpeg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
               <div class="slider-caption container">
+                  <div class="tp-caption rs-caption-1 sft start text-right"
+                    data-hoffset="0"
+                    data-y="270"
+                    data-x="right"
+                    data-speed="800"
+                    data-start="1000"
+                    data-easing="Back.easeInOut"
+                    data-endspeed="300">
+                    Lorem Ipsum Dolar
+                  </div>
 
-               
+                <div class="tp-caption rs-caption-2 sft text-right"
+                  data-hoffset="0"
+                  data-y="345"
+                  data-x="right"
+                  data-speed="1000"
+                  data-start="1500"
+                  data-easing="Power4.easeOut"
+                  data-endspeed="300"
+                  data-endeasing="Power1.easeIn"
+                  data-captionhidden="off">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor
+                </div>
+
+                <div class="tp-caption rs-caption-3 sft text-right"
+                  data-hoffset="0"
+                  data-x="right"
+                  data-y="455"
+                  data-speed="1200"
+                  data-start="2000"
+                  data-easing="Power4.easeOut"
+                  data-endspeed="300"
+                  data-endeasing="Power1.easeIn"
+                  data-captionhidden="off">
+                  <a href="#" class="btn btn-primary">view more</a>
+                </div>
               </div>
             </li>
           </ul>
         </div>
       </div>
-    </section>-->
-
-    <!-- BANNER BOTTOM -->
-    <!--<section class="banner-bottom hidden-xs">
-      <div class="container">
-        <div class="banner-bottom-inner">
-          <div class="row">
-            <div class="col-sm-4">
-              <div class="colContent">
-                <img src="images/servicio1.jpg" alt="image" class="img-responsive">
-                <div class="colContent-info text-center">
-                  <h3 class="bg-color-6">Diseño web</h3>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-4">
-              <div class="colContent">
-                <img src="images/servicio2.jpg" alt="image" class="img-responsive">
-                 <div class="colContent-info text-center">
-                  <h3 class="bg-color-5">Diseño de app</h3>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-4">
-              <div class="colContent">
-                <img src="images/servicio3.jpg" alt="image" class="img-responsive">
-                 <div class="colContent-info text-center">
-                  <h3 class="bg-color-1">Base de datos</h3>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>-->
-
-        <!-- HOME BANNERS -->
-        <section id="inicio" class="bannercontainer bannercontainerV1">
-            <div class="fullscreenbanner-container">
-              <div class="fullscreenbanner">
-                  <ul>
-                    <li data-transition="fade" data-slotamount="5" data-masterspeed="700" data-title="Slide 1">
-                        <img src="images/home2.jpeg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
-                        <div class="slider-caption container">
-                          <div class="tp-caption rs-caption-1 sft start"
-                              data-hoffset="0"
-                              data-y="200"
-                              data-speed="800"
-                              data-start="1000"
-                              data-easing="Back.easeInOut"
-                              data-endspeed="300">
-                              Kindergarten Website
-                          </div>
-
-                          <div class="tp-caption rs-caption-2 sft"
-                              data-hoffset="0"
-                              data-y="265"
-                              data-speed="1000"
-                              data-start="1500"
-                              data-easing="Power4.easeOut"
-                            data-endspeed="300"
-                              data-endeasing="Power1.easeIn"
-                              data-captionhidden="off">
-                              Kidz is a perfect theme for kindergarten school, very simple <br>and easy to use.
-                          </div>
-                        </div>
-                    </li>
-
-                    <li data-transition="fade" data-slotamount="5" data-masterspeed="700"  data-title="Slide 3">
-                        <img src="images/home1.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
-                        <div class="slider-caption container">
-                          <div class="tp-caption rs-caption-1 sft start text-right"
-                              data-hoffset="0"
-                              data-y="200"
-                              data-x="right"
-                              data-speed="800"
-                              data-start="1000"
-                              data-easing="Back.easeInOut"
-                              data-endspeed="300">
-                              Impress Your Clients
-                          </div>
-
-                          <div class="tp-caption rs-caption-2 sft text-right"
-                              data-hoffset="0"
-                              data-y="265"
-                              data-x="right"
-                              data-speed="1000"
-                              data-start="1500"
-                              data-easing="Power4.easeOut"
-                              data-endspeed="300"
-                              data-endeasing="Power1.easeIn"
-                              data-captionhidden="off">
-                              Kidz is created for better user experience in mind.
-                          </div>
-                        </div>
-                    </li>
-                  </ul>
-              </div>
-            </div>
-        </section>
-      
-        <!-- HOME ITEMS -->
-        <section class="clearfix linkSection hidden-xs">
-            <div class="sectionLinkArea hidden-xs scrolling">
-              <div class="container">
-                  <div class="row">
-                    <div class="col-sm-3">
-                        <a href="#ourCourses" class="sectionLink bg-color-1" id="coursesLink">
-                          <i class="fa fa-file-text-o linkIcon border-color-1" aria-hidden="true"></i>
-                          <span class="linkText">Courses</span>
-                          <i class="fa fa-chevron-down locateArrow" aria-hidden="true"></i>
-                        </a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="#ourTeam" class="sectionLink bg-color-2" id="teamLink">
-                          <i class="fa fa-calendar-o linkIcon border-color-2" aria-hidden="true"></i>
-                          <span class="linkText">Teachers</span>
-                          <i class="fa fa-chevron-down locateArrow" aria-hidden="true"></i>
-                        </a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="#ourGallery" class="sectionLink bg-color-3" id="galleryLink">
-                          <i class="fa fa-picture-o linkIcon border-color-3" aria-hidden="true"></i>
-                          <span class="linkText">Gallery</span>
-                          <i class="fa fa-chevron-down locateArrow" aria-hidden="true"></i>
-                        </a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="#latestNews" class="sectionLink bg-color-4" id="newsLink">
-                          <i class="fa fa-files-o linkIcon border-color-4" aria-hidden="true"></i>
-                          <span class="linkText">News</span>
-                          <i class="fa fa-chevron-down locateArrow" aria-hidden="true"></i>
-                        </a>
-                    </div>
-                  </div>
-              </div>
-            </div>
-        </section>
+    </section>
 
         <!-- SERVICES -->
         <section id="servicios1" class="colorSection full-width clearfix">

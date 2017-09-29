@@ -4574,13 +4574,13 @@ footer .color-bar {
 }
 @media (min-width: 320px) {
   .homeContactContent form .btn-primary {
-    float: left;
+    /*float: left;*/
     width: 100%;
   }
 }
 @media (min-width: 768px) {
   .homeContactContent form .btn-primary {
-    float: right;
+    /*float: right;*/
     width: auto;
   }
 }

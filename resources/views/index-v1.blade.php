@@ -31,7 +31,7 @@
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
   <!-- Icons -->
-  <link rel="shortcut icon" href="images/favicon.png">
+  <link rel="shortcut icon" href="img/favicon.png">
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -85,7 +85,7 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a href="" id="logictools1" class="navbar-brand dropdown-toggle" data-toggle="dropdown">
-                      <img src="images/logo.png" alt="Logictools" style="width: 70%">
+                      <img src="img/logo.png" alt="Logictools" style="width: 70%">
                     </a>
                   </div>
 
@@ -129,7 +129,7 @@
                   <ul>
 
                     <li data-transition="fade" data-slotamount="5" data-masterspeed="700" data-title="Slide 1">
-                        <img src="images/img1.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                        <img src="img/img1.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
                         <div class="slider-caption container">
                           <div class="tp-caption rs-caption-1 sft start"
                               data-hoffset="0"
@@ -157,7 +157,7 @@
                     </li>
 
                      <li data-transition="fade" data-slotamount="5" data-masterspeed="700" data-title="Slide 1">
-                        <img src="images/img2.jpeg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                        <img src="img/img2.jpeg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
                         <div class="slider-caption container">
                           <div class="tp-caption rs-caption-1 sft start"
                               data-hoffset="0"
@@ -185,7 +185,7 @@
                     </li>
 
                     <li data-transition="fade" data-slotamount="5" data-masterspeed="700" data-title="Slide 1">
-                        <img src="images/img3.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                        <img src="img/img3.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
                         <div class="slider-caption container">
                           <div class="tp-caption rs-caption-1 sft start"
                               data-hoffset="0"
@@ -304,7 +304,7 @@
 
                   <div class="col-sm-4 hidden-xs">
                     <div class="text-center">
-                        <img src="img/home/services.png" alt="image">
+                        <img src="img/services.png" alt="image">
                     </div>
                   </div>
 
@@ -393,11 +393,11 @@
                           <div class="widget-content widget-content-full">
                             <div id="info-carousel1" class="carousel slide remove-margin"><br>
                               <div class="carousel-inner">
-                                <div class="item active"><img src="http://www.agromapp.com/assets/images/background/phone-1.png" alt="Agromapp"></div>
-                                <div class="item"><img src="http://www.agromapp.com/assets/images/background/phone-2.png" alt="Selecciona tu cultivo."></div>
-                                <div class="item"><img src="http://www.agromapp.com/assets/images/background/phone-3.png" alt=""></div>
-                                <div class="item"><img src="http://www.agromapp.com/assets/images/background/phone-4.png" alt="Plagas y enfermedades."></div>
-                                <div class="item"><img src="http://www.agromapp.com/assets/images/background/phone-5.png" alt=""></div>
+                                <div class="item active"><img src="img/phone-1.png" alt="Agromapp"></div>
+                                <div class="item"><img src="img/phone-2.png" alt="Selecciona tu cultivo."></div>
+                                <div class="item"><img src="img/phone-3.png" alt=""></div>
+                                <div class="item"><img src="img/phone-4.png" alt="Plagas y enfermedades."></div>
+                                <div class="item"><img src="img/phone-5.png" alt=""></div>
                               </div>
                               <a class="left carousel-control" href="#info-carousel1" data-slide="prev" style="visibility: hidden;">
                                 <span><i class="fa fa-chevron-left"></i></span>
@@ -421,11 +421,11 @@
                           Cuantas mas envíes mas visibilidad ganarás. ​<br /><br />          
                           <b>Retroalimentación:</b> <br />Contamos con blog, Foros y Redes sociales.​</p>
                           <a href="https://play.google.com/store/apps/details?id=air.com.bionet.agromapp" target="_blank">
-                            <img src="images/googlePlay.png" width="15%" style="border-radius: 5px; width: 154px; height: 56px;">
+                            <img src="img/googlePlay.png" width="15%" style="border-radius: 5px; width: 154px; height: 56px;">
                           </a>
                           &nbsp;&nbsp;&nbsp;&nbsp;
                           <a href="https://play.google.com/store/apps/details?id=air.com.bionet.agromapp" target="_blank">
-                            <img src="images/appStore.png" width="15%" style="border-radius: 5px; width: 154px; height: 56px;">
+                            <img src="img/appStore.png" width="15%" style="border-radius: 5px; width: 154px; height: 56px;">
                           </a>
                         </div>
                       </div>
@@ -437,7 +437,7 @@
           </div>
         </section>
 
-        <section class="promotionWrapper" style="background-image: url(images/img4.jpeg);">
+        <section class="promotionWrapper" style="background-image: url(img/img4.jpeg);">
           <div class="container">
             <div class="promotionInfo">
               <h2>¿Necesitas una cotización?</h2>
@@ -523,12 +523,12 @@
               </div>
             </div>
 
-            <div class="footerInfoArea full-width clearfix" style="background-image: url(images/footer.png);">
+            <div class="footerInfoArea full-width clearfix" style="background-image: url(img/footer.png);">
               <div class="container">
                   <div class="row">
                     <div class="col-sm-12 col-xs-12">
                         <div class="footerTitle" align="center">
-                          <a href="" id="logictools2" class="dropdown-toggle" data-toggle="dropdown"><img src="images/logo.png" width="100%"></a>
+                          <a href="" id="logictools2" class="dropdown-toggle" data-toggle="dropdown"><img src="img/logo.png" width="100%"></a>
                         </div>
                     </div>
                   </div>

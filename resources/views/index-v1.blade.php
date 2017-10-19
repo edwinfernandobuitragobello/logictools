@@ -40,71 +40,75 @@
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
 
+  <script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+      var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+      s1.async=true;
+      s1.src='https://embed.tawk.to/59e83dfcc28eca75e4626e54/default';
+      s1.charset='UTF-8';
+      s1.setAttribute('crossorigin','*');
+      s0.parentNode.insertBefore(s1,s0);
+    })();
+  </script>
+
 </head>
 
-  <body class="body-wrapper version3">
+ <body class="body-wrapper">
+      <div class="main-wrapper">
+        <header id="pageTop" class="header-wrapper">
+          <div class="container-fluid color-bar top-fixed clearfix">
+              <div class="row">
+                  <div class="col-sm-1 col-xs-2 bg-color-1">fix bar</div>
+                  <div class="col-sm-1 col-xs-2 bg-color-2">fix bar</div>
+                  <div class="col-sm-1 col-xs-2 bg-color-3">fix bar</div>
+                  <div class="col-sm-1 col-xs-2 bg-color-4">fix bar</div>
+                  <div class="col-sm-1 col-xs-2 bg-color-5">fix bar</div>
+                  <div class="col-sm-1 col-xs-2 bg-color-6">fix bar</div>
+                  <div class="col-sm-1 bg-color-1 hidden-xs">fix bar</div>
+                  <div class="col-sm-1 bg-color-2 hidden-xs">fix bar</div>
+                  <div class="col-sm-1 bg-color-3 hidden-xs">fix bar</div>
+                  <div class="col-sm-1 bg-color-4 hidden-xs">fix bar</div>
+                  <div class="col-sm-1 bg-color-5 hidden-xs">fix bar</div>
+                  <div class="col-sm-1 bg-color-6 hidden-xs">fix bar</div>
+              </div>
+            </div>
 
-  <div class="main-wrapper">
-    <!-- HEADER -->
-    <header id="pageTop" class="header-wrapper headerV3">
-      <!-- COLOR BAR -->
-      <div class="container-fluid color-bar top-fixed clearfix">
-        <div class="row">
-          <div class="col-sm-1 col-xs-2 bg-color-1">fix bar</div>
-          <div class="col-sm-1 col-xs-2 bg-color-2">fix bar</div>
-          <div class="col-sm-1 col-xs-2 bg-color-3">fix bar</div>
-          <div class="col-sm-1 col-xs-2 bg-color-4">fix bar</div>
-          <div class="col-sm-1 col-xs-2 bg-color-5">fix bar</div>
-          <div class="col-sm-1 col-xs-2 bg-color-6">fix bar</div>
-          <div class="col-sm-1 bg-color-1 hidden-xs">fix bar</div>
-          <div class="col-sm-1 bg-color-2 hidden-xs">fix bar</div>
-          <div class="col-sm-1 bg-color-3 hidden-xs">fix bar</div>
-          <div class="col-sm-1 bg-color-4 hidden-xs">fix bar</div>
-          <div class="col-sm-1 bg-color-5 hidden-xs">fix bar</div>
-          <div class="col-sm-1 bg-color-6 hidden-xs">fix bar</div>
-        </div>
-      </div>
+            <!-- NAVBAR -->
+            <nav id="menuBar" class="navbar navbar-default lightHeader" role="navigation">
+              <div class="container">
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="" id="logictools1" class="navbar-brand dropdown-toggle" data-toggle="dropdown">
+                      <img src="images/logo.png" alt="Logictools" style="width: 70%">
+                    </a>
+                  </div>
 
-      <!-- TOP INFO BAR -->
-      
-
-      <!-- NAVBAR -->
-      <nav id="menuBar" class="navbar navbar-default lightHeader" role="navigation">
-        <div class="container">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a href="" id="logictools1" class="navbar-brand dropdown-toggle" data-toggle="dropdown">
-              <img src="images/logo.png" alt="Logictools" style="width: 70%">
-            </a>
-          </div>
-
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse navbar-ex1-collapse">
-            <ul class="nav navbar-nav navbar-right">
-              <li class="active dropdown singleDrop color-1">
+                  <div class="collapse navbar-collapse navbar-ex1-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active dropdown singleDrop color-1">
                           <a href="" id="inicio" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                             <i class="fa fa-home bg-color-1" aria-hidden="true"></i> <span>Inicio</span>
                           </a>
                         </li>
-                        <li class="dropdown singleDrop color-3">
+                        <li class="dropdown singleDrop color-4">
                           <a href="" id="servicios" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                            <i class="fa fa-list-ul bg-color-2" aria-hidden="true"></i> <span>Servicios</span>
+                            <i class="fa fa-list-ul bg-color-4" aria-hidden="true"></i> <span>Servicios</span>
                           </a>
                         </li>
-                        <li class="dropdown megaDropMenu color-2">
+                        <li class="dropdown megaDropMenu color-3">
                           <a href="" id="equipo" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                            <i class="fa fa-users bg-color-3" aria-hidden="true"></i> <span>Equipo</span>
+                            <i class="fa fa-users bg-color-3" aria-hidden="true"></i> <span>Conócenos</span>
                           </a>
                         </li>
-                      <li class="dropdown singleDrop color-4">
+                      <li class="dropdown singleDrop color-2">
                           <a href="" id="proyectos" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                            <i class="fa fa-send bg-color-4" aria-hidden="true"></i> <span>Proyectos</span>
+                            <i class="fa fa-send bg-color-2" aria-hidden="true"></i> <span>Proyectos</span>
                           </a>
                         </li>
                         <li class="dropdown singleDrop color-5">
@@ -112,104 +116,144 @@
                             <i class="fa fa-phone bg-color-5" aria-hidden="true"></i> <span>Contacto</span>
                           </a>
                         </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
-
-    <!-- BANNER -->
-    <section class="bannercontainer bannercontainerV3">
-      <div class="fullscreenbanner-container">
-        <div class="fullscreenbanner">
-          <ul>
-            <li data-transition="fade" data-slotamount="5" data-masterspeed="700"  data-title="Slide 3">
-              <img src="images/home1.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
-              <div class="slider-caption container">
-                <div class="tp-caption rs-caption-1 sft start text-right"
-                  data-hoffset="0"
-                  data-y="270"
-                  data-x="right"
-                  data-speed="800"
-                  data-start="1000"
-                  data-easing="Back.easeInOut"
-                  data-endspeed="300">
-                  Lorem Ipsum Dolar
-                </div>
-
-                <div class="tp-caption rs-caption-2 sft text-right"
-                  data-hoffset="0"
-                  data-x="right"
-                  data-y="345"
-                  data-x="right"
-                  data-speed="1000"
-                  data-start="1500"
-                  data-easing="Power4.easeOut"
-                  data-endspeed="300"
-                  data-endeasing="Power1.easeIn"
-                  data-captionhidden="off">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor
-                </div>
-
-                <div class="tp-caption rs-caption-3 sft text-right"
-                  data-hoffset="0"
-                  data-x="right"
-                  data-y="455"
-                  data-speed="1200"
-                  data-start="2000"
-                  data-easing="Power4.easeOut"
-                  data-endspeed="300"
-                  data-endeasing="Power1.easeIn"
-                  data-captionhidden="off">
-                  <a href="#" class="btn btn-primary">view more</a>
-                </div>
-              </div>
-            </li>
-            <li data-transition="fade" data-slotamount="5" data-masterspeed="700"  data-title="Slide 4">
-              <img src="images/home2.jpeg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
-              <div class="slider-caption container">
-                  <div class="tp-caption rs-caption-1 sft start text-right"
-                    data-hoffset="0"
-                    data-y="270"
-                    data-x="right"
-                    data-speed="800"
-                    data-start="1000"
-                    data-easing="Back.easeInOut"
-                    data-endspeed="300">
-                    Lorem Ipsum Dolar
+                    </ul>
                   </div>
-
-                <div class="tp-caption rs-caption-2 sft text-right"
-                  data-hoffset="0"
-                  data-y="345"
-                  data-x="right"
-                  data-speed="1000"
-                  data-start="1500"
-                  data-easing="Power4.easeOut"
-                  data-endspeed="300"
-                  data-endeasing="Power1.easeIn"
-                  data-captionhidden="off">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor
-                </div>
-
-                <div class="tp-caption rs-caption-3 sft text-right"
-                  data-hoffset="0"
-                  data-x="right"
-                  data-y="455"
-                  data-speed="1200"
-                  data-start="2000"
-                  data-easing="Power4.easeOut"
-                  data-endspeed="300"
-                  data-endeasing="Power1.easeIn"
-                  data-captionhidden="off">
-                  <a href="#" class="btn btn-primary">view more</a>
-                </div>
               </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
+            </nav>
+        </header>
+
+        <!-- HOME BANNERS -->
+        <section id="inicio" class="bannercontainer bannercontainerV1">
+            <div class="fullscreenbanner-container">
+              <div class="fullscreenbanner">
+                  <ul>
+
+                    <li data-transition="fade" data-slotamount="5" data-masterspeed="700" data-title="Slide 1">
+                        <img src="images/img1.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                        <div class="slider-caption container">
+                          <div class="tp-caption rs-caption-1 sft start"
+                              data-hoffset="0"
+                              data-y="200"
+                              data-speed="800"
+                              data-start="1000"
+                              data-easing="Back.easeInOut"
+                              data-endspeed="300">
+                              Software a la medida
+                          </div>
+
+                          <div class="tp-caption rs-caption-2 sft"
+                              data-hoffset="0"
+                              data-y="265"
+                              data-speed="1000"
+                              data-start="1500"
+                              data-easing="Power4.easeOut"
+                              data-endspeed="300"
+                              data-endeasing="Power1.easeIn"
+                              data-captionhidden="off">
+                              Creamos soluciones diseñadas especialmente para su organización. <br />
+                              Soluciones de calidad, responsabilidad, honestidad y compromiso.
+                          </div>
+                        </div>
+                    </li>
+
+                     <li data-transition="fade" data-slotamount="5" data-masterspeed="700" data-title="Slide 1">
+                        <img src="images/img2.jpeg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                        <div class="slider-caption container">
+                          <div class="tp-caption rs-caption-1 sft start"
+                              data-hoffset="0"
+                              data-y="200"
+                              data-speed="800"
+                              data-start="1000"
+                              data-easing="Back.easeInOut"
+                              data-endspeed="300">
+                              Identificamos tus necesidades
+                          </div>
+
+                          <div class="tp-caption rs-caption-2 sft"
+                              data-hoffset="0"
+                              data-y="265"
+                              data-speed="1000"
+                              data-start="1500"
+                              data-easing="Power4.easeOut"
+                              data-endspeed="300"
+                              data-endeasing="Power1.easeIn"
+                              data-captionhidden="off">
+                              Ponemos a tu disposición un equipo de diseño y programación.<br />
+                              A la vanguardia del desarrollo web y capaz de asombrarte.
+                          </div>
+                        </div>
+                    </li>
+
+                    <li data-transition="fade" data-slotamount="5" data-masterspeed="700" data-title="Slide 1">
+                        <img src="images/img3.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                        <div class="slider-caption container">
+                          <div class="tp-caption rs-caption-1 sft start"
+                              data-hoffset="0"
+                              data-y="200"
+                              data-speed="800"
+                              data-start="1000"
+                              data-easing="Back.easeInOut"
+                              data-endspeed="300">
+                              Amamos nuestro trabajo
+                          </div>
+
+                          <div class="tp-caption rs-caption-2 sft"
+                              data-hoffset="0"
+                              data-y="265"
+                              data-speed="1000"
+                              data-start="1500"
+                              data-easing="Power4.easeOut"
+                              data-endspeed="300"
+                              data-endeasing="Power1.easeIn"
+                              data-captionhidden="off">
+                              Hacemos que tus herramientas sean fáciles de usar. <br />
+                              Software / Aplicaciones Web / App Móviles.
+                          </div>
+                        </div>
+                    </li>
+
+                  </ul>
+              </div>
+            </div>
+        </section>
+      
+        <!-- HOME ITEMS -->
+        <section class="clearfix linkSection hidden-xs">
+            <div class="sectionLinkArea hidden-xs scrolling">
+              <div class="container">
+                  <div class="row">
+                    <div class="col-sm-3">
+                        <a href="" id="a1" class="sectionLink bg-color-1 dropdown-toggle" data-toggle="dropdown">
+                          <i class="fa fa-laptop linkIcon border-color-1" style="font-size: 50px;" aria-hidden="true"></i>
+                          <span class="linkText">Aplicaciones<br />Web</span>
+                          <i class="fa fa-chevron-down locateArrow" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                    <div class="col-sm-3">
+                        <a href="" id="a2" class="sectionLink bg-color-2 dropdown-toggle" data-toggle="dropdown">
+                          <i class="fa fa-mobile linkIcon border-color-2" style="font-size: 60px;" aria-hidden="true"></i>
+                          <span class="linkText">Aplicaciones<br />Móviles</span>
+                          <i class="fa fa-chevron-down locateArrow" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                    <div class="col-sm-3">
+                        <a href="" id="a3" class="sectionLink bg-color-3 dropdown-toggle" data-toggle="dropdown">
+                          <i class="fa fa-desktop linkIcon border-color-3" style="font-size: 40px;" aria-hidden="true"></i>
+                          <span class="linkText">Aplicaciones<br />Escritorio</span>
+                          <i class="fa fa-chevron-down locateArrow" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                    <div class="col-sm-3">
+                        <a href="" id="a4" class="sectionLink bg-color-4 dropdown-toggle" data-toggle="dropdown">
+                          <i class="fa fa-bullhorn linkIcon border-color-4" style="font-size: 45px;" aria-hidden="true"></i>
+                          <span class="linkText">Estrategias<br/ >Digitales</span>
+                          <i class="fa fa-chevron-down locateArrow" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                  </div>
+              </div>
+            </div>
+        </section>
 
         <!-- SERVICES -->
         <section id="servicios1" class="colorSection full-width clearfix">
@@ -305,99 +349,21 @@
               <div class="sectionTitle text-center alt">
                   <h2>
                     <span class="shape shape-left bg-color-3"></span>
-                    <span>CONOZCA NUESTRO EQUIPO</span>
+                    <span>CONÓCEMOS</span>
                     <span class="shape shape-right bg-color-3"></span>
                   </h2>
               </div>
+              <br/ ><br/ >
+              <br/ ><br/ ><br/ >
             
               <div class="row">
-                  <div class="col-xs-12">
-                    <div class=" teamSlider">
-                      <div class="col-md-3">
-                          <div class="slide">
-                            <div class="teamContent">
-                                <div class="teamImage">
-                                  <img src="img/testimonial/4.jpg" alt="Eduardo Jaimes" title="Eduardo Jaimes" width="100%" class="img-circle">
-                                  <div class="maskingContent">
-                                    <ul class="list-inline">
-                                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                      </ul>
-                                  </div>
-                                </div>
-                                <div class="teamInfo">
-                                  <h3>Eduardo Jaimes</h3>
-                                  <p>Project <br>Manager</p>
-                                </div>
-                            </div>
-                          </div>
-                        </div>
-
-                        <div class="col-md-3">
-                          <div class="slide">
-                            <div class="teamContent">
-                                <div class="teamImage">
-                                  <img src="img/testimonial/3.jpg" alt="Jonathan Velandia" title="Jonathan Velandia" width="100%" class="img-circle">
-                                  <div class="maskingContent">
-                                    <ul class="list-inline">
-                                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                      </ul>
-                                  </div>
-                                </div>
-                                <div class="teamInfo">
-                                  <h3>Jonathan Velandia</h3>
-                                  <p>Desarrollador <br>Frontend</p>
-                                </div>
-                            </div>
-                          </div>
-                        </div>
-
-                        <div class="col-md-3">
-                          <div class="slide">
-                            <div class="teamContent">
-                                <div class="teamImage">
-                                  <img src="img/testimonial/2.jpg" alt="Edwin Buitrago" title="Edwin Buitrago" width="100%" class="img-circle">
-                                  <div class="maskingContent">
-                                    <ul class="list-inline">
-                                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                      </ul>
-                                  </div>
-                                </div>
-                                <div class="teamInfo">
-                                  <h3>Edwin Buitrago</h3>
-                                  <p>Desarrollador <br>Backend</p>
-                                </div>
-                            </div>
-                          </div>
-                        </div>
-
-                        <div class="col-md-3">
-                          <div class="slide">
-                            <div class="teamContent">
-                                <div class="teamImage">
-                                  <img src="img/testimonial/6.jpg" alt="Danny Cortés" title="Danny Cortés" width="100%" class="img-circle">
-                                  <div class="maskingContent">
-                                    <ul class="list-inline">
-                                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                      </ul>
-                                  </div>
-                                </div>
-                                <div class="teamInfo">
-                                  <h3>Danny Cortés</h3>
-                                  <p>Desarrollador <br>Móvil</p>
-                                </div>
-                            </div>
-                          </div>
-                        </div>
-                    </div>
+                <div class="col-xs-12">
+                  <div class="commentContent text-center">
+                    <h2>
+                      Somos un equipo de trabajo que nos gusta entregar resultados de calidad en el menor tiempo posible, por ello nos ajustamos a las necesidades y condiciones de su proyecto, entregando lo mejor del mercado en Experiencia, Seguridad y Diseño, haciendo que los productos que desarrolle con nosotros sean fáciles y prácticos de usar, también te acompañamos a definir el alcance de tu idea. Cada proyecto que desarrollamos es confidencial.
+                    </h2>
                   </div>
+                </div>
               </div>
             </div>
         </section>
@@ -410,7 +376,7 @@
                 <div class="sectionTitle text-center">
                   <h2>
                     <span class="shape shape-left bg-color-4"></span>
-                    <span>AGROMAPP</span>
+                    <span><a href="http://www.agromapp.com" target="_blank" class="agromapp">AGROMAPP</a></span>
                     <span class="shape shape-right bg-color-4"></span>
                   </h2>
                 </div>
@@ -426,7 +392,7 @@
                         <div id="headCarousel" class="col-md-4">
                           <div class="widget-content widget-content-full">
                             <div id="info-carousel1" class="carousel slide remove-margin"><br>
-                              <div class="carousel-inner" >
+                              <div class="carousel-inner">
                                 <div class="item active"><img src="http://www.agromapp.com/assets/images/background/phone-1.png" alt="Agromapp"></div>
                                 <div class="item"><img src="http://www.agromapp.com/assets/images/background/phone-2.png" alt="Selecciona tu cultivo."></div>
                                 <div class="item"><img src="http://www.agromapp.com/assets/images/background/phone-3.png" alt=""></div>
@@ -445,7 +411,8 @@
                         
                         <!--Agromapp-->
                         <div class="media-body">
-                          <h3 class="media-heading" style="margin-top: -30px"><a href="http://www.agromapp.com" target="_blank">Agromapp</a></h3>
+                          <h3 class="media-heading" style="margin-top: -30px">
+                          <a href="http://www.agromapp.com" target="_blank" class="agromapp">Agromapp</a></h3>
                           <p>Agromapp es un ejemplo de las aplicaciones móviles que  desarrollamos pensando en ayudar, está enfocada al sector agrícola y es totalmente gratis, contiene mas de 180 cultivos con información para identificar y conocer plagas, enfermedades, deficiencias, propagación y posibles soluciones. Esta app es una guía para el nuevo agricultor, facilitándole  la toma de decisiones. <br /><br />
                           <b>Pensamos en todo:</b> ​<br />Todos pueden registrar y promocionar sus productos o servicios gratis​.<br /><br />
                           <b>Funciona sin internet:</b><br />Sabemos que la cobertura en el campo no es la mejor y es allí  donde más se necesita la información.​<br /><br />
@@ -470,11 +437,11 @@
           </div>
         </section>
 
-        <section class="promotionWrapper" style="background-image: url(images/cotizacion.jpg);">
+        <section class="promotionWrapper" style="background-image: url(images/img4.jpeg);">
           <div class="container">
             <div class="promotionInfo">
               <h2>¿Necesitas una cotización?</h2>
-              <p>No dudes en contactarnos:</p>
+              <p>No dudes en contactarnos</p>
               <a href="" id="btn_contacto" class="dropdown-toggle btn btn-primary" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                 <i class="fa fa-send" aria-hidden="true"></i>Solicitar
               </a>
@@ -482,7 +449,7 @@
           </div>
         </section>
 
-        <!-- CONTACTO -->
+        <!-- SECTION CONTACT -->
         <section id="contacto1" class="lightSection full-width clearfix homeContactSection">
             <div class="container">
               <div class="row">
@@ -491,10 +458,10 @@
                         <h2>Dirección</h2>
                         <p>Regístrate y recibe más información, también nos puedes enviar tus sugerencias o inquietudes las cuales resolveremos de inmediato.</p>
                         <address>
-                          <p><i class="fa fa-map-marker bg-color-2" aria-hidden="true"></i>Cra 72 Bis # 24D - 50 Bogotá</p>
-                          <p><i class="fa fa-envelope bg-color-3" aria-hidden="true"></i><a href="mailto:contacto@logictools.co">contacto@logictools.co</a></p>
-                          <p><i class="fa fa-phone bg-color-4" aria-hidden="true"></i>(57-1) 2630353 Bogotá</p>
-                          <p><i class="fa fa-mobile bg-color-1" aria-hidden="true"></i>Cel. 312 437 8174</p><br>
+                          <p><i class="fa fa-map-marker bg-color-1" aria-hidden="true"></i>Cra 72 Bis # 24D - 50 Bogotá</p>
+                          <p><i class="fa fa-envelope bg-color-4" aria-hidden="true"></i><a href="mailto:contacto@logictools.co">contacto@logictools.co</a></p>
+                          <p><i class="fa fa-phone bg-color-3" aria-hidden="true"></i>(57-1) 2630353 Bogotá</p>
+                          <p><i class="fa fa-mobile bg-color-2" aria-hidden="true"></i>Cel. 312 437 8174</p><br>
                         </address>
                     </div>
                   </div>
@@ -575,16 +542,16 @@
                     <div class="col-sm-5 col-sm-push-7 col-xs-12">
                         <ul class="list-inline">
                           <li>
-                            <a href="" target="_blank" class="bg-color-1"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="#" target="_blank" class="bg-color-1"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                           </li>
                           <li>
-                            <a href= target="_blank" class="bg-color-4"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="#" target="_blank" class="bg-color-4"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                           </li>
                           <li>
-                            <a href="" target="_blank" class="bg-color-3"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            <a href="#" target="_blank" class="bg-color-3"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                           </li>
                           <li>
-                            <a href="" target="_blank" class="bg-color-2"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            <a href="#" target="_blank" class="bg-color-2"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                           </li>
                       </ul>
                     </div>
@@ -646,7 +613,7 @@
       $("html, body").animate({scrollTop:posicion+"px"});
   }
   function equipo(){
-      var posicion= $("#equipo1").offset().top-60+"px";
+      var posicion= $("#equipo1").offset().top-90+"px";
       $("html, body").animate({scrollTop:posicion+"px"});
   }
   function proyectos(){
@@ -667,5 +634,11 @@
   $("#logictools1").click(function(){ inicio(); });
   $("#logictools2").click(function(){ inicio(); });
   $("#logictools3").click(function(){ inicio(); });
+  $("#a1").click(function(){ servicios(); });
+  $("#a2").click(function(){ servicios(); });
+  $("#a3").click(function(){ servicios(); });
+  $("#a4").click(function(){ servicios(); });
+  $("#btn_contacto").click(function(){ contacto(); });
+  
 
 </script>
